@@ -28,7 +28,7 @@ SECRET_KEY = "django-insecure-7kbozc7a8v51ya&66(24d4zc3xgq$zlxz8=^mj=f0uc*5jwt)@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 AUTH_USER_MODEL = "internapp.User"
 
